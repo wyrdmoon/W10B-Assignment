@@ -1,1 +1,29 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="style.css">
+</head>
+<body> 
+    <h1 id="title">Precious Metals</h1>
+    <div id="selection-container">
+         <div id="selection-1" class="selection" onclick="select('Gold')">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Gold_Bars.jpg" alt="Gold">
+             <h2>Gold</h2>
+         </div>
+         <div id="selection-2" class="selection" onclick="select('Silver')">
+             <img src="https://www.mytradenews.com/wp-content/uploads/2017/07/How-to-Make-the-Most-of-Your-Silver-Bullion-Investment-678x381.jpg" alt="Silver">
+             <h2>Silver</h2>
+         </div>
+         <div id="selection-3" class="selection" onclick="select('Platinum')">
+             <img src="https://blog.providentmetals.com/wp-content/uploads/bfi_thumb/palladium_bars-1024x1024-39fy4by2rg6atfm1aqppmo.jpg" alt="Platinum">
+             <h2>Platinum</h2>
+         </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
